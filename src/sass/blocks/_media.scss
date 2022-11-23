@@ -5,12 +5,34 @@
     }
     .header {
         &__logo {
-            img {
-                width: 85%;
+                img {
+                    width: 80%;
             }
         }
     }
 }
+    .benefits {
+        padding: 70px 0 80px 0; 
+    
+        &__wrapper {
+            margin-top: 60px;
+        }
+    .title {
+        font-size: 30px;
+    }
+        &__item {
+            max-width: 277px;
+        }
+        &__subtitle {
+            margin-top: 35px;
+            font-size: 18px;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    }
+
 
 @media (max-width: 991px) {
     .promo {
@@ -18,12 +40,15 @@
         padding: 34px 30px;
     .header {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         }
         &__header {
-            font-size: 33px;
+            font-size: 36px;
             line-height: 10px;
+        }
+        &__subheader {
+            font-size: 21px;
         }
             &__logo {
                 img {
@@ -37,26 +62,26 @@
         &__icon {
             width: 120px;
         }
-        .button {
-            &_main {
-                margin-top: 66px;
-            }
-            &__link {
-                margin-top: 14px;
-            }
+    .button {
+        &_main {
+            margin-top: 66px;
+        }
+        &__link {
+            margin-top: 14px;
         }
     }
-}  
-        .benefits {
-            max-height: 300px;
-            padding: 50px 0 40px 0;
-            &__wrapper {
-                margin-top: 50px;
-            }
-        .title {
-            margin: 0 auto;
-            font-size: 28px;
+}
+
+    .benefits {
+        max-height: 300px;
+        padding: 50px 0 40px 0;
+        &__wrapper {
+            margin-top: 50px;
         }
+    .title {
+        margin: 0 auto;
+        font-size: 28px;
+    }
         &__item {
             margin: 36px;
             max-width: 210px;
@@ -68,5 +93,36 @@
         &__descr {
             margin-top: 10px;
             font-size: 11px;
-        }
     }
+}
+}
+@media (max-width: 767px) {
+    .promo {
+        padding: 40px 48px;
+        max-height: 400px;
+    .header {
+        &__phone {
+            font-size: 14px;
+        }      
+        &__official {
+            span {
+                font-size: 13px;
+            }
+        }
+        &__logo {
+            img {
+                width: 80%;
+            }
+          
+    }
+}
+}
+    .button {
+        width: 132px;
+        height: 30px;
+    }
+}
+
+
+
+    
