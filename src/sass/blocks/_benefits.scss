@@ -10,9 +10,9 @@
     text-transform: uppercase;
     }
     &__wrapper {
-        margin-top: 60px;
         display: flex;
         justify-content: space-between;
+        margin-top: 60px;
     }
     &__item {
         display: flex;
@@ -37,6 +37,4 @@
             color: #FF0000;
         }
     }
-
 }
-
