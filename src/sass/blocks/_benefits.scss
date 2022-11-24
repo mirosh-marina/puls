@@ -12,7 +12,7 @@
     &__wrapper {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         margin-top: 60px;
     }
     &__item {
@@ -20,6 +20,7 @@
         flex-direction: column;
         align-items: center;
         max-width: 277px;
+        margin: 27px;
     }
     &__subtitle {
         margin-top: 35px;
