@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     .promo {
-        max-height: 500px;
+        min-height: 600px;;
         padding-top: 34px;
         &__icon {
             img {
@@ -101,7 +101,6 @@
         &_submit {
             margin-bottom: 10px;
             height: 55px;
-            width: 357px;
     }
     
 }
@@ -111,7 +110,7 @@
         padding: 40px 0 0 0;
         &__wrapper {
             margin-top: 15px;
-            padding: 0 40px 0 40px;
+            padding: 0 20px 0 20px;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
@@ -159,7 +158,7 @@
 @media (max-width: 767px) {
     .promo {
         padding: 40px 48px;
-        max-height: 400px;
+        min-height: 550px;
         &__wrapper {
             display: flex;
             justify-content: space-between;
@@ -356,9 +355,6 @@
         padding: 40px 30px 20px 30px;
         &__descr {
             font-size: 12px;
-            br {
-                display: none;
-            }
         }
     .title {
     &_left {
