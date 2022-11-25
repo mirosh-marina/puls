@@ -48,7 +48,9 @@
         line-height: 45px;
     }
     }
-
+    .feed-form {
+        width: 300px;
+    }
     }    
 }
 @media (max-width: 991px) {
@@ -97,7 +99,9 @@
             margin-top: 14px;
         }
         &_submit {
-            height: 52px;
+            margin-bottom: 10px;
+            height: 55px;
+            width: 357px;
     }
     
 }
@@ -143,6 +147,7 @@
     }
     }
     .feed-form {
+        width: 300px;
     input {
         height: 50px;
         margin-bottom: 11px;
@@ -211,7 +216,7 @@
             font-size: 15px;
         }
         &_submit {
-            width: 288px;
+            width: 100%;
             height: 48px;
         }
     }
@@ -256,7 +261,7 @@
     }
     .feed-form {
         margin-top: 27px;
-        width: 289px;
+        width: 270px;
     input {
         height: 45px;
         margin-bottom: 8px;
@@ -320,7 +325,7 @@
             font-size: 10px;
         }
         &_submit {
-            width: 250px;
+            width: 200px;
             height: 35px;
             margin-top: 5px;
         }
@@ -348,10 +353,9 @@
 }
     .consultation {
         min-height: 370px;
-        padding: 34px 40px 20px 40px;
+        padding: 40px 30px 20px 30px;
         &__descr {
             font-size: 12px;
-            text-align: center;
             br {
                 display: none;
             }
@@ -360,7 +364,6 @@
     &_left {
         font-size: 15px;
         line-height: 20px;
-        text-align: center;
         br {
             display: none;
         }
@@ -368,11 +371,12 @@
 }
     .feed-form {
         margin-top: 27px;
-        width: 250px;
+        width: 230px;
     input {
         height: 30px;
         margin-bottom: 7px;
         font-size: 9px;
+        width: 200px;
     }   
     }
     }
