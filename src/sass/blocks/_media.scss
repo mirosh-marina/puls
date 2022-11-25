@@ -25,7 +25,7 @@
             align-items: flex-start;
         }
         &__item {
-            max-width: 277px;
+            max-width: 273px;
         }
         &__subtitle {
             margin-top: 35px;
@@ -38,14 +38,26 @@
     .title {
         font-size: 30px;
     }
-
     }
-    
+    .consultation {
+        min-height: 600px;
+        padding: 80px;
+    .title {
+    &_left {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    }
+
+    }    
 }
 @media (max-width: 991px) {
     .promo {
-        max-height: 450px;
+        min-height: 600px;
         padding: 34px 30px;
+        &__link {
+            margin-top: 12px;
+        }
     .header {
         display: flex;
         flex-direction: row;
@@ -73,31 +85,36 @@
             img {
                 width: 35%;
             }
-            
+        }
         }
     .button {
         &_main {
             margin-top: 66px;
+            width: 290px;
+            height: 50px;
         }
         &__link {
             margin-top: 14px;
         }
+        &_submit {
+            height: 52px;
     }
+    
 }
 
     .benefits {
-
-        max-height: 300px;
-        padding: 50px 0 40px 0;
+        min-height: 420px;
+        padding: 40px 0 0 0;
         &__wrapper {
-            margin-top: 50px;
+            margin-top: 15px;
+            padding: 0 40px 0 40px;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
         }
         &__item {
-            margin: 36px;
-            max-width: 260px;
+            margin: 2px;
+            max-width: 220px;
 
         }
         &__subtitle {
@@ -111,6 +128,26 @@
     .title {
         margin: 0 auto;
         font-size: 28px;
+    }
+    }
+    .consultation {
+        min-height: 550px;
+        padding: 60px;
+        &__descr {
+            font-size: 18px;
+        }
+    .title {
+    &_left {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    }
+    .feed-form {
+    input {
+        height: 50px;
+        margin-bottom: 11px;
+        font-size: 13px;
+    }   
     }
 }
 }
@@ -167,19 +204,23 @@
     .button {
         width: 132px;
         height: 30px;
-    }
-        .button_main {
+        &_main {
             margin-top: 60px;
             width: 240px;
             height: 50px;
             font-size: 15px;
         }
+        &_submit {
+            width: 288px;
+            height: 48px;
+        }
+    }
     
     .benefits {
         padding-top: 55px;
-        min-height: 775px;
+        min-height: 790px;
         &__wrapper {
-            padding: 42px;
+            padding: 33px 60px 40px 60px;
             margin: 0 auto;
             flex-direction: column;
             align-items: center;
@@ -192,12 +233,36 @@
             font-size: 20px;
         }
         &__descr {
-            font-size: 14px;
+            font-size: 15px;
+            br {
+                display: none;
+            }
     }
     .title {
         font-size: 27px;
         }
 }
+    .consultation {
+        min-height: 500px;
+        padding: 70px;
+        &__descr {
+            font-size: 16px;
+        }
+    .title {
+    &_left {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    }
+    .feed-form {
+        margin-top: 27px;
+        width: 289px;
+    input {
+        height: 45px;
+        margin-bottom: 8px;
+    }   
+    }
+    }
 }
 
 @media (max-width: 575px) {
@@ -254,6 +319,11 @@
             height: 35px;
             font-size: 10px;
         }
+        &_submit {
+            width: 250px;
+            height: 35px;
+            margin-top: 5px;
+        }
     }
 
     .benefits {
@@ -268,7 +338,7 @@
             font-size: 10px;
         }
         &__wrapper {
-            padding: 20px;
+            padding: 0 40px 25px 40px;
             flex-direction: column;
             align-items: center;
         }
@@ -276,6 +346,36 @@
         font-size: 20px;
     }
 }
+    .consultation {
+        min-height: 370px;
+        padding: 34px 40px 20px 40px;
+        &__descr {
+            font-size: 12px;
+            text-align: center;
+            br {
+                display: none;
+            }
+        }
+    .title {
+    &_left {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        br {
+            display: none;
+        }
+    }
+}
+    .feed-form {
+        margin-top: 27px;
+        width: 250px;
+    input {
+        height: 30px;
+        margin-bottom: 7px;
+        font-size: 9px;
+    }   
+    }
+    }
 }
 
 
