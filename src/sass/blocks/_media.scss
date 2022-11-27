@@ -1,6 +1,6 @@
 @media (max-width: 1200px) {
     .promo {
-        min-height: 600px;;
+        min-height: 600px;
         padding-top: 34px;
         &__icon {
             img {
@@ -51,7 +51,16 @@
     .feed-form {
         width: 300px;
     }
-    }    
+    } 
+    .carousel {
+        min-height: 600px;
+        
+    .tns-item {
+        img {
+            width: 100%;
+        }   
+}
+}
 }
 @media (max-width: 991px) {
     .promo {
@@ -153,6 +162,23 @@
         font-size: 13px;
     }   
     }
+}
+.carousel {
+    min-height: 600px;
+    .tns-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    
+    .next {
+        img {
+            display: none;
+        }
+    .prev {
+        display: none;
+    }
+}
 }
 }
 @media (max-width: 767px) {
@@ -267,31 +293,57 @@
     }   
     }
     }
-}
+    .carousel {
+        min-height: 500px;
+        padding: 25px 10px 20px 18px;
+        .tns-nav {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+        }
+        .tns-item {
+            img {
+                width: 100%;
+            }
+        }
+        .next {
+                display: none;
+
+        }
+        .prev {
+            display: none;
+        }
+    }
+    }
 
 @media (max-width: 575px) {
     .promo{
         min-height: 400px;
         padding: 15px 15px 20px 15px;
         &__wrapper {
-            margin-top: 45px;
+            margin-top: 25px;
         }
         &__header {
             font-size: 21px;
+            &__logo {
+                width: 220px;
+            }
         }
         &__subheader {
             font-size: 12px;
             margin: 0;
         }
         &__icons {
-            margin-top: 35px;
-            width: 220px;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            width: 300px;
         }
         &__icon {
-            font-size: 9px;
-            width: 69px;
+            font-size: 12px;
+            margin-bottom: 10px;
             img {
-                width: 35%;
+                width: 30%;
             }
         }
         &__link {
@@ -318,10 +370,10 @@
         height: 25px;
         font-size:10px;
         &_main {
-            margin-top: 69px;
             width: 150px;
             height: 35px;
             font-size: 10px;
+            margin-top: 10px;
         }
         &_submit {
             width: 200px;
@@ -352,22 +404,26 @@
 }
     .consultation {
         min-height: 370px;
-        padding: 40px 30px 20px 30px;
+        padding: 40px;
         &__descr {
             font-size: 12px;
+            text-align: center;
         }
     .title {
     &_left {
         font-size: 15px;
         line-height: 20px;
+        text-align: center;
         br {
             display: none;
         }
     }
 }
     .feed-form {
+        align-items: center;
         margin-top: 27px;
-        width: 230px;
+        width: 300px;
+    
     input {
         height: 30px;
         margin-bottom: 7px;
@@ -376,6 +432,29 @@
     }   
     }
     }
+}
+.carousel {
+    min-height: 250px;
+    .tns-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+    }
+    .tns-item {
+        img {
+            width: 100%;
+        }
+    
+    .next {
+        img {
+            display: none;
+        }
+    .prev {
+        display: none;
+    }
+}
+}
 }
 
 
