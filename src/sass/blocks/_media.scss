@@ -54,12 +54,18 @@
     } 
     .carousel {
         min-height: 600px;
-        
-    .tns-item {
+        &__inner {
+    .slick-dots {
+            max-width: 950px;
+            display: flex;
+            justify-content: center;
+    }
+    .slick-slide {
         img {
             width: 100%;
-        }   
-}
+    }
+    }
+    }   
 }
 }
 @media (max-width: 991px) {
@@ -165,21 +171,37 @@
 }
 .carousel {
     min-height: 600px;
-    .tns-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px 0 40px;
+}
+    li {
+        margin: 5px;
+        list-style-type: none;
+
+
+    button {
+        width: 20px;
+        height: 7px;
+        font-size: 0;
+        background-color: rgb(168, 168, 168);
     }
-    
-    .next {
-        img {
-            display: none;
+    .slick-active {
+        background-color: rgb(75, 74, 74);
         }
-    .prev {
-        display: none;
     }
+    .slick-slide {
+        img {
+            width: 100%;
+    }
+    }
+         
 }
-}
+
 }
 @media (max-width: 767px) {
     .promo {
@@ -225,7 +247,7 @@
         }
         &__logo {
             img {
-                width: 80%
+                width: 90%
             }     
     }
     }
@@ -295,26 +317,23 @@
     }
     .carousel {
         min-height: 500px;
-        padding: 25px 10px 20px 18px;
-        .tns-nav {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-        }
-        .tns-item {
-            img {
-                width: 100%;
-            }
-        }
-        .next {
-                display: none;
 
-        }
-        .prev {
-            display: none;
-        }
+        &__inner {
+            max-width: 520px;
+    .slick-dots {
+    max-width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .slick-slide {
+        img {
+            width: 100%;
     }
     }
+    }
+}
+}
 
 @media (max-width: 575px) {
     .promo{
@@ -432,31 +451,19 @@
     }   
     }
     }
-}
-.carousel {
-    min-height: 250px;
-    .tns-nav {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
+    .carousel {
+        min-height: 250px;
+        padding: 30px 50px 30px 35px;
+    .slick-dots {
+        display: flex;
+        justify-content: center; 
+        align-items: center;
     }
-    .tns-item {
+    .slick-slide {
         img {
-            width: 100%;
-        }
-    
-    .next {
-        img {
-            display: none;
-        }
-    .prev {
-        display: none;
+            width: 70%;
+    }
+    }
     }
 }
-}
-}
-
-
-
     

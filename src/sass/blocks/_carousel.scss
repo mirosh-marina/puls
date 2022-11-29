@@ -1,16 +1,11 @@
-    .carousel {
-        padding: 81px 0;
-        &__inner {
-            position: relative;
-            width: 750px;
-            margin: 0 auto;
-        }
-    .tns-nav {
-        button{
-            display: block;
-        }  
+.carousel {
+    padding: 81px 0;
+    &__inner {
+        position: relative;
+        width: 750px;
+        margin: 0 auto;
     }
-    .prev, .next {
+    .slick-prev, .slick-next  {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -20,30 +15,10 @@
         img {
             width: 31px;
             height: 50px;
-        } 
+        }
     }
-    .next {
+    .slick-next  {
         right: -66px;
         left: auto;
     }
-    .tns-item {
-        img {
-            display: block;
-            margin: 0 auto;
-        }
-    }
-    
-        button {
-            background-color: #fff;
-            margin-right: 5px;
-            width: 15px;
-            height: 6px;
-            
-        }
-        .tns-nav-active {
-            background-color: rgb(132, 132, 132);
-            width: 20px;
-            height: 8px;
-            
-        }
-    }
+}
