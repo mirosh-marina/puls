@@ -9,7 +9,8 @@
     text-transform: uppercase;
     color: #FFFFFF;
     &:hover {
-        background-color:#FF9696;
+        box-shadow: 3px 3px 20px;
+        background-color:#DE2809;
         transition: 0.5s all;
 }
     &_main {
@@ -18,7 +19,8 @@
         height: 54px;
         font-size: 16px;
         &:hover {
-            background-color:#FF9696;
+            box-shadow: 3px 3px 20px;
+            background-color:#DE2809;
             transition: 0.5s all;
     }
     }
@@ -29,7 +31,7 @@
         text-transform: uppercase;
         background: #C70101;
         &:hover {
-            background-color:#FF9696;
+            background-color: #DE2809;
             transition: 0.5s all;
     }
     }
@@ -40,9 +42,10 @@
         top: 378px;
         font-size: 14px;
         &:hover {
-            background-color:#FF9696;
-            transform: scale(1.2);
+            background-color: #DE2809;
             transition: 0.5s all;
+            transform: scale(1.2);
+            
     }
 
     }
