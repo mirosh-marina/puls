@@ -370,6 +370,10 @@
         margin-bottom: 8px;
     }   
     }
+    label.error {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
     }
     .carousel {
         min-height: 500px;
@@ -582,7 +586,7 @@
         width: 100%;
     input {
         height: 32px;
-        margin-bottom: 11px;
+        margin-bottom: 8px;
         font-size: 9px;
         width: 180px;
     }   
@@ -601,7 +605,10 @@
         }
     }
 }
-    
+    label.error {
+        margin-bottom: 5px;
+        font-size: 9px;
+    }
     }
     .carousel {
         min-height: 250px;
