@@ -181,7 +181,6 @@
             padding: 40px;
         }
 
-
     .slick-dots {
         display: flex;
         justify-content: center;
@@ -191,7 +190,7 @@
     li {
         margin: 5px;
         list-style-type: none;
-
+    }
 
     button {
         width: 20px;
@@ -199,13 +198,9 @@
         font-size: 0;
         background-color: rgb(168, 168, 168);
     }
-    .slick-active {
-        background-color: rgb(75, 74, 74);
-        }
-    }
     .slick-slide {
         img {
-            width: 90%;
+            width: 100%;
     }
     }        
 }
@@ -246,7 +241,7 @@
         width: 350px;
         min-height: 350px;
         padding: 20px 35px 20px 35px;
-        top: 85%;
+        top: 55%;
         left: 50%;
         &__subtitle {
             font-size: 17px;
@@ -258,7 +253,8 @@
         width: 280px;
     }
     }
-    }
+}
+    
 
 @media (max-width: 767px) {
     .promo {
@@ -323,6 +319,9 @@
             width: 100%;
             height: 50px;
         }
+        &_modal {
+            width: 100%;
+        }
     }
     
     .benefits {
@@ -376,7 +375,7 @@
         min-height: 500px;
 
         &__inner {
-            max-width: 520px;
+            max-width: 450px;
                 padding: 42px;
     .slick-dots {
     max-width: 520px;
@@ -460,7 +459,7 @@
         width: 328px;
         min-height: 328px;
         padding: 20px 25px 20px 25px;
-        top: 70%;
+        top: 50%;
         left: 50%;
         &__subtitle {
             font-size: 16px;
@@ -483,6 +482,7 @@
     }
     }
     }
+}
 }
 
 @media (max-width: 575px) {
@@ -546,16 +546,18 @@
             margin-top: 10px;
         }
         &_submit {
-            width: 220px;
-            height: 40px;
+            width: 100%;
+            height: 20%;
             margin-top: 5px;
+        }
             &_modal {
                 width: 100%;
                 height: 55px;
+                margin-top: 2px;
+                font-size: 12px;
             }
         }
   
-    }
 
     .benefits {
         padding: 30px 0 10px 0;
@@ -598,14 +600,14 @@
         align-items: center;
         margin-top: 27px;
         width: 100%;
-    
+    }
     input {
         height: 35px;
         margin-bottom: 7px;
         font-size: 9px;
         width: 220px;
     }   
-}
+
     }
     .carousel {
         min-height: 250px;
@@ -613,19 +615,15 @@
         &__inner {
             padding: 0 40px 0 40px;
         }
-    .container {
-        max-width: 400px;
-        height: 260px;
-    }
     .slick-dots {
         display: flex;
         justify-content: center; 
         align-items: center;
-        max-width: 320px;
+        max-width: 300px;
     }
     .slick-slide {
         img {
-            width: 70%;
+            width: 80%;
     }
     }
     }
@@ -677,11 +675,16 @@
         }
 }
     .modal {
-        top: 40%;
+        top: 50%;
         left: 50%;
-        width: 250px;
-        min-height: 200px;
+        width: 230px;
+        min-height: 250px;
         padding: 15px 20px;
+        label.error {
+            font-size: 10px;
+            margin-bottom: 5px;
+        }
+        
         &__subtitle {
             font-size: 11px;
         }
@@ -694,25 +697,29 @@
             font-size: 30px;
             line-height: 22px;
         }
+
+            
     .feed-form {
         &_mt25 {
         font-size: 11px;
         margin-top: 14px;
         width: 180px;
-        height: 230px;
-        margin-left: 12px;
-        input:nth-child(3) {
-            margin-bottom: 8px;
+        height: 170px;
+        margin-left: 4px;
         }
-
-        .error {
+        input {
             font-size: 10px;
+            height: 30px;
+            margin-bottom: 8px;
+}
+        }
+            &:nth-child(3) {
             margin-bottom: 5px;
         }
+    }
+}   
     
 
-    }
-    }
-}
-}
-}
+
+
+
