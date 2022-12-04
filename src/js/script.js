@@ -91,7 +91,7 @@ $(document).ready(function(){
 
             if (!$(this).valid()) {
                 return;
-            }
+            };
 
             $.ajax({
                 type: "POST",
