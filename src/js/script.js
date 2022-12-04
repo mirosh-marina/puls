@@ -1,5 +1,3 @@
-const { data } = require("browserslist");
-
 $(document).ready(function(){
     $('.carousel__inner').slick({
         speed: 1200,
@@ -99,9 +97,10 @@ $(document).ready(function(){
                 type: "POST",
                 url: "mailer/smart.php",
                 data: $(this).serialize()
-            }).done(function(){
+            }).done(function() {
                 $(this).find("input").val("");
-
+                $('#consultation, #order').fadeOut();
+                $('.overlay, #thanks').fadeIn('slow');
 
                 $('form').trigger('reset');
             });
