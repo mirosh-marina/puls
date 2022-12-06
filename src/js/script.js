@@ -54,7 +54,7 @@ $(document).ready(function(){
         });
 
         function validateForms(form){
-            $(form).validate({
+            $('form').validate({
                 rules: {
                     name: {
                             required: true,
@@ -91,7 +91,7 @@ $(document).ready(function(){
 
             if (!$(this).valid()) {
                 return;
-            };
+            }
 
             $.ajax({
                 type: "POST",
