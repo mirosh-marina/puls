@@ -674,7 +674,13 @@
             height: 30px;
             margin: 0px 5px;
         }
-}
+    .place-card {
+        .place-card-large {
+            padding-bottom: -1px;
+        }
+    }
+    
+    }
     .modal {
         top: 50%;
         left: 50%;
@@ -718,6 +724,7 @@
             margin-bottom: 5px;
         }
     }
+
 }   
     
 
