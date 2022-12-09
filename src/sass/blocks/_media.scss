@@ -55,6 +55,7 @@
     .carousel {
         min-height: 600px;
         &__inner {
+            width: 65%;
     .slick-dots {
             max-width: 100%;
             display: flex;
@@ -64,6 +65,9 @@
         img {
             width: 100%;
     }
+    }
+    .slick-next {
+        right: -60px;
     }
     }   
 }
@@ -178,7 +182,7 @@
     .carousel {
         min-height: 600px;
         &__inner {
-            padding: 40px;
+            
         }
 
     .slick-dots {
@@ -379,7 +383,6 @@
         min-height: 500px;
 
         &__inner {
-            max-width: 450px;
                 padding: 42px;
     .slick-dots {
     max-width: 520px;
@@ -624,7 +627,8 @@
     }
     .slick-slide {
         img {
-            width: 80%;
+            width: 100%;
+            margin: 0;
     }
     }
     }
